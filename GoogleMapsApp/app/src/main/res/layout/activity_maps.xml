@@ -9,6 +9,30 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="1dp"
+        android:layout_weight="0.2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Lattitude" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Longitude" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Last Update" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
         android:layout_weight="0.6">
 
         <EditText
@@ -26,18 +50,11 @@
             android:text="112.79" />
 
         <EditText
-            android:id="@+id/ZoomVal"
+            android:id="@+id/Update"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="15" />
-
-        <Button
-            android:id="@+id/goButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Go" />
+            android:text="" />
     </LinearLayout>
 
     <LinearLayout
@@ -45,19 +62,19 @@
         android:layout_height="0dp"
         android:layout_weight="0.7">
 
-        <EditText
-            android:id="@+id/SearchVal"
+        <Button
+            android:id="@+id/startButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="" />
+            android:text="Start Update" />
 
         <Button
-            android:id="@+id/searchButton"
+            android:id="@+id/stopButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Search" />
+            android:text="Stop Update" />
 
     </LinearLayout>
 
